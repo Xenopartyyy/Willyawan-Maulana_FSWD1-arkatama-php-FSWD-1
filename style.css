@@ -1,0 +1,44 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+body .bg {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  height: auto;
+  margin: auto;
+  /* margin: 15px 150px; */
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+.main{
+  align-items: center;
+  text-align: start;
+  padding: 0 0 2em 3em ;
+  width: 25em;
+  margin: auto;
+}
+body .bg img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 10%;
+  border-style: solid;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+body .bg hr {
+  width: 35%;
+  border-style: solid;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+body .bg span {
+  font-size: 25px;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+}
